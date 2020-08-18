@@ -6,36 +6,16 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
     size: {
-      control: { type: 'select', options: ['small', 'medium', 'large'] }
+      control: { type: 'select', options: [] }
     }
   }
 };
 
-const Template = (args, { argTypes }) => ({
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const Template = (args: any, { argTypes }: any) => ({
   props: Object.keys(argTypes),
   components: { MyCard },
   template: '<my-card @onClick="onClick" v-bind="$props" />'
 });
 
 export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: 'Card'
-};
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Card'
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Card'
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Card'
-};
