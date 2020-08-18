@@ -7,7 +7,7 @@
             <v-col></v-col>
             <v-col>
               <div class="subtitle-2">
-                契約プラン
+                Plan
               </div>
               <div class="white--text display-1">
                 <center>
@@ -31,7 +31,7 @@
           <v-row>
             <v-col>
               <div class="mb-3 subtitle-2">
-                ユーザー数
+                Users
               </div>
               <div class="display-1">
                 <center>
@@ -42,7 +42,7 @@
             <v-divider vertical></v-divider>
             <v-col>
               <div class="mb-3 subtitle-2">
-                データ容量
+                Data Size
               </div>
               <div class="display-1">
                 <center>3 <span class="title">GB</span></center>
