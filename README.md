@@ -1,4 +1,4 @@
-# nuxtjs-vuetify-storybook
+# portfoliem-storybook
 
 ## Project setup
 ```
