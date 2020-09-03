@@ -1,4 +1,5 @@
 # portfoliem-storybook
+📚 This repository is a storybook of UI components using Vue.js and Vuetify, TypeScript.
 
 ## Project setup
 ```
