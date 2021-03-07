@@ -11,7 +11,6 @@ export default {
   }
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MyCard },
