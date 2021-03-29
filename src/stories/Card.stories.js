@@ -2,19 +2,12 @@ import MyCard from './Card.vue';
 
 export default {
   title: 'Example/Card',
-  component: MyCard,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-    size: {
-      control: { type: 'select', options: [] }
-    }
-  }
+  component: MyCard
 };
 
-const Template = (args, { argTypes }) => ({
-  props: Object.keys(argTypes),
+export const Template = () => ({
   components: { MyCard },
-  template: '<my-card @onClick="onClick" v-bind="$props" />'
+  template: '<my-card />'
 });
 
-export const Primary = Template.bind({});
+Template.storyName = 'Card';

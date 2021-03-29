@@ -2,19 +2,12 @@ import ProfileCard from './ProfileCard.vue';
 
 export default {
   title: 'Example/Card',
-  component: ProfileCard,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-    size: {
-      control: { type: 'select', options: [] }
-    }
-  }
+  component: ProfileCard
 };
 
-const Template = (args, { argTypes }) => ({
-  props: Object.keys(argTypes),
+export const Profile = () => ({
   components: { ProfileCard },
-  template: '<profile-card @onClick="onClick" v-bind="$props" />'
+  template: '<profile-card />'
 });
 
-export const Profile = Template.bind({});
+Profile.storyName = 'Profile Card';
