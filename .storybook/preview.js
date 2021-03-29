@@ -1,3 +1,4 @@
+import '@mdi/font/css/materialdesignicons.css';
 import { addDecorator } from '@storybook/vue';
 import vuetify from './vuetify_storybook.js';
 
