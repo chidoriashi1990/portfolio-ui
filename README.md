@@ -1,5 +1,7 @@
 # portfoliem-storybook
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4d16eafc-fc2f-4f39-a798-6fea42081808/deploy-status)](https://app.netlify.com/sites/inspiring-hamilton-de4b5e/deploys)
+
 ## Project setup
 ```
 npm install
