@@ -18,11 +18,18 @@
               Yusuke Miyakawa
             </v-card-title>
             <v-card-text>
-              Software Engineer & Front-end Web Development.
+              Software Engineer & Web Development.
             </v-card-text>
             <v-card-actions>
               <div v-for="button in actionButtons" :key="button.icon">
-                <v-btn fab small dark class="mx-2">
+                <v-btn
+                  fab
+                  small
+                  dark
+                  class="mx-2"
+                  :href="button.href"
+                  target="_blank"
+                >
                   <v-icon dark>{{ button.icon }}</v-icon>
                 </v-btn>
               </div>
@@ -39,11 +46,26 @@ export default {
   name: 'ProfileCard',
   data: () => ({
     actionButtons: [
-      { icon: 'mdi-email' },
-      { icon: 'mdi-linkedin' },
-      { icon: 'mdi-facebook' },
-      { icon: 'mdi-twitter' },
-      { icon: 'mdi-github' }
+      {
+        icon: 'mdi-email',
+        href: 'mailto:chidoriashi00918@gmail.com'
+      },
+      {
+        icon: 'mdi-linkedin',
+        href: 'https://www.linkedin.com/in/yusuke-miyakawa-a0a219191/'
+      },
+      {
+        icon: 'mdi-facebook',
+        href: 'https://www.facebook.com/YuM1909'
+      },
+      {
+        icon: 'mdi-twitter',
+        href: 'https://twitter.com/MiyakawaYusuke'
+      },
+      {
+        icon: 'mdi-github',
+        href: 'https://github.com/chidoriashi1990'
+      }
     ]
   })
 };
