@@ -2,6 +2,8 @@ import '@mdi/font/css/materialdesignicons.css';
 import { addDecorator } from '@storybook/vue';
 import vuetify from './vuetify_storybook.js';
 
+import { action } from '@storybook/addon-actions';
+
 addDecorator(() => ({
   vuetify,
   template: `
@@ -14,3 +16,7 @@ addDecorator(() => ({
     </v-app>
     `
 }));
+
+window.___navigate = pathname => {
+  action('NavigateTo:')(pathname);
+};
