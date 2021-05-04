@@ -1,7 +1,7 @@
 import ProfileCard from './ProfileCard.vue';
 
 export default {
-  title: 'Example/Card',
+  title: 'Portfoliem/Card',
   component: ProfileCard
 };
 

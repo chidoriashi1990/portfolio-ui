@@ -1,7 +1,7 @@
 import MyCard from './Card.vue';
 
 export default {
-  title: 'Example/Card',
+  title: 'Portfoliem/Card',
   component: MyCard
 };
 

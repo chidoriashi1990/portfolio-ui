@@ -1,7 +1,7 @@
 import SectionCard from './SectionCard.vue';
 
 export default {
-  title: 'Example/Card',
+  title: 'Portfoliem/Card',
   component: SectionCard
 };
 
