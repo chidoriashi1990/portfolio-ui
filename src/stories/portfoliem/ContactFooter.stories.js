@@ -1,7 +1,7 @@
 import ContactFooter from './ContactFooter.vue';
 
 export default {
-  title: 'Example/Footer',
+  title: 'Portfoliem/Footer',
   component: ContactFooter
 };
 

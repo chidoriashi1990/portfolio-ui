@@ -1,7 +1,7 @@
 import PortfoliemHeader from './PortfoliemHeader.vue';
 
 export default {
-  title: 'Example/Header',
+  title: 'Portfoliem/Header',
   component: PortfoliemHeader
 };
 

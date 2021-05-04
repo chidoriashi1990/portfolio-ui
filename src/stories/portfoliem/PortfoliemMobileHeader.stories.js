@@ -1,7 +1,7 @@
 import PortfoliemMobileHeader from './PortfoliemMobileHeader.vue';
 
 export default {
-  title: 'Example/Header',
+  title: 'Portfoliem/Header',
   component: PortfoliemMobileHeader
 };
 

@@ -2,7 +2,7 @@ import { action } from '@storybook/addon-actions';
 import DarkModeSwitch from './DarkModeSwitch.vue';
 
 export default {
-  title: 'Example/Switch',
+  title: 'Portfoliem/Switch',
   component: DarkModeSwitch,
   parameters: { actions: { argTypesRegex: '^.*' } }
 };
