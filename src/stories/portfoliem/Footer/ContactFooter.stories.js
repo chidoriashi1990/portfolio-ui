@@ -1,4 +1,4 @@
-import ContactFooter from './Footer/ContactFooter.vue';
+import ContactFooter from './ContactFooter.vue';
 
 export default {
   title: 'Portfoliem/Footer',

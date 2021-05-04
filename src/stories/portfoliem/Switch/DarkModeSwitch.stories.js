@@ -1,5 +1,5 @@
 import { action } from '@storybook/addon-actions';
-import DarkModeSwitch from './Switch/DarkModeSwitch.vue';
+import DarkModeSwitch from './DarkModeSwitch.vue';
 
 export default {
   title: 'Portfoliem/Switch',
