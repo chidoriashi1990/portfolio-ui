@@ -1,13 +1,13 @@
-# Contributing to Portfoliem Storybook
+# Contributing to Portfoliem UI
 
-- [Contributing to Portfoliem Storybook](#contributing-to-portfoliem-storybook)
+- [Contributing to Portfoliem UI](#contributing-to-portfoliem-ui)
   - [Issues](#issues)
   - [Pull Requests (PRs)](#pull-requests-prs)
   - [Development Guide](#development-guide)
     - [Prerequisites](#prerequisites)
     - [Initial Setup](#initial-setup)
 
-Thank you for your interest in Portfoliem Storybook. We are a project led by Yusuke Miyakawa, and we welcome all kinds of contributions, from discussions to documentation, bug fixes, and feature improvements.
+Thank you for your interest in Portfoliem UI. We are a project led by Yusuke Miyakawa, and we welcome all kinds of contributions, from discussions to documentation, bug fixes, and feature improvements.
 
 Please review this document to streamline the process and save everyone valuable time.
 
