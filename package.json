@@ -9,7 +9,7 @@
     "test": "jest",
     "storyshots": "NODE_ENV=test jest --config ./jest.config.storyshots.js",
     "build-storybook": "build-storybook",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006 --no-manager-cache"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -28,6 +28,8 @@
     "@storybook/addon-jest": "^6.2.9",
     "@storybook/addon-links": "^6.2.2",
     "@storybook/addon-storyshots": "^6.2.9",
+    "@storybook/addons": "^6.2.9",
+    "@storybook/theming": "^6.2.9",
     "@storybook/vue": "^6.2.2",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "^4.5.11",
