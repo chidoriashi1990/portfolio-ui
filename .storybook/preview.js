@@ -9,8 +9,8 @@ addDecorator(() => ({
   template: `
     <v-app>
       <v-main>
-        <v-container fluid >
-          <story/>
+        <v-container fluid>
+          <story />
         </v-container>
       </v-main>
     </v-app>
@@ -19,4 +19,11 @@ addDecorator(() => ({
 
 window.___navigate = pathname => {
   action('NavigateTo:')(pathname);
+};
+
+import { create } from '@storybook/theming';
+export const parameters = {
+  docs: create({
+    base: 'light'
+  })
 };
