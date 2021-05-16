@@ -16,7 +16,7 @@ This repo uses yarn workspaces, so you should install yarn as the package manage
 ## Issues
 All software has bugs. Therefore, if you encounter any problems, please follow the steps below.
 
-- Search for current and old issues in the [issue list](https://github.com/chidoriashi1990/portfoliem-storybook/issues).
+- Search for current and old issues in the [issue list](https://github.com/portfoliem/portfoliem-ui/issues).
 - If the problem persists, please create an issue using the following information
   - Clear title (the shorter the better).
   - Describe the problem in clear terms.
@@ -39,7 +39,7 @@ Please have the latest stable versions of the following on your machine
 If you run into trouble here, make sure your node, npm, and yarn are on the latest versions (yarn at least v1.3.2).
 
 1. `cd ~` (optional)
-2. `git clone https://github.com/chidoriashi1990/portfoliem-storybook.git` bonus: use your own fork for this step
-3. `cd portfoliem-storybook`
+2. `git clone https://github.com/portfoliem/portfoliem-ui.git` bonus: use your own fork for this step
+3. `cd portfoliem-ui`
 4. `yarn install`
 5. `yarn run storybook`
