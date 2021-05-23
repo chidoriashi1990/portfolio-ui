@@ -1,3 +1,4 @@
+import { action } from '@storybook/addon-actions';
 import PortfoliemHeader from './PortfoliemHeader.vue';
 
 export default {
@@ -7,7 +8,12 @@ export default {
 
 export const Header = () => ({
   components: { PortfoliemHeader },
-  template: '<portfoliem-header />'
+  template:
+    '<portfoliem-header @menu="onClickMenu" @transMode="onClickTranslation" />',
+  methods: {
+    onClickMenu: action('menu'),
+    onClickTranslation: action('translation')
+  }
 });
 
 Header.storyName = 'Portfoliem Header';

@@ -3,12 +3,13 @@
     <v-container fluid class="d-flex justify-end align-center">
       <!-- navigation buttons -->
       <v-btn
-        tile
+        text
         x-large
         class="text-lowercase"
         v-for="navbutton in navButtons"
         :key="navbutton.label"
         :href="navbutton.href"
+        @click="$emit('menu', navbutton.label)"
       >
         {{ navbutton.label }}
       </v-btn>
@@ -16,7 +17,12 @@
       <!-- Translate button -->
       <v-menu rounded="b-xl" offset-y>
         <template v-slot:activator="{ attrs, on }">
-          <v-btn class="white--text text-capitalize" v-bind="attrs" v-on="on">
+          <v-btn
+            text
+            class="white--text text-capitalize"
+            v-bind="attrs"
+            v-on="on"
+          >
             <v-icon class="mr-3">mdi-translate</v-icon>
             <div class="button-style">{{ transName }}</div>
             <v-icon class="ml-3">mdi-chevron-down</v-icon>
