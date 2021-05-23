@@ -1,12 +1,12 @@
 <template>
   <v-card class="d-flex justify-space-between mb-6" flat>
-    <v-card>
+    <v-card width="500px">
       <v-container>
         <v-row dense>
           <v-col cols="4">
             <v-card elevation="0" class="px-1">
               <v-img
-                src="https://avatars.githubusercontent.com/u/3616178?v=4"
+                :src="profileImage"
                 alt="Profile image"
                 :aspect-ratio="1 / 1"
                 width="180"
@@ -44,29 +44,15 @@
 <script>
 export default {
   name: 'ProfileCard',
-  data: () => ({
-    actionButtons: [
-      {
-        icon: 'mdi-email',
-        href: 'mailto:chidoriashi00918@gmail.com'
-      },
-      {
-        icon: 'mdi-linkedin',
-        href: 'https://www.linkedin.com/in/yusuke-miyakawa-a0a219191/'
-      },
-      {
-        icon: 'mdi-facebook',
-        href: 'https://www.facebook.com/YuM1909'
-      },
-      {
-        icon: 'mdi-twitter',
-        href: 'https://twitter.com/MiyakawaYusuke'
-      },
-      {
-        icon: 'mdi-github',
-        href: 'https://github.com/chidoriashi1990'
-      }
-    ]
-  })
+  props: {
+    profileImage: {
+      type: String,
+      required: true
+    },
+    actionButtons: {
+      type: Array,
+      required: true
+    }
+  }
 };
 </script>
