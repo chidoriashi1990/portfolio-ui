@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-card class="pa-3 mx-auto" min-width="500">
+      <v-card class="pa-3 mx-auto" min-width="500" max-width="500">
         <!-- title -->
         <v-card class="d-flex justify-center" flat tile>
           <v-card-title>
