@@ -28,7 +28,11 @@ export default {
   name: 'SectionCard',
   data: () => ({}),
   props: {
-    title: String
+    title: {
+      type: String,
+      required: false,
+      default: ''
+    }
   }
 };
 </script>
