@@ -5,6 +5,8 @@
     elevation="0"
     outlined
     class="d-inline-flex px-8 py-2"
+    min-width="242"
+    min-height="106"
   >
     <v-card-actions>
       <v-switch
