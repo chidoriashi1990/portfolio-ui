@@ -48,6 +48,13 @@
 <script>
 export default {
   name: 'PortfoliemHeader',
+  props: {
+    initialTransMode: {
+      type: String,
+      require: false,
+      default: 'en'
+    }
+  },
   data: () => ({
     navButtons: [
       { label: 'about', href: '' },
@@ -59,10 +66,18 @@ export default {
     transModel: 'en',
     transItems: [
       { label: 'English', val: 'en' },
-      { label: '日本語', val: 'jp' }
+      { label: '日本語', val: 'ja' }
     ]
   }),
+  created() {
+    this.transModeName(this.initialTransMode);
+  },
   methods: {
+    /**
+     * Initialize translation settings
+     * @module transModeName
+     * @param {string} transModel - Ex. en, ja
+     */
     transModeName(transModel) {
       for (let i = 0; i < this.transItems.length; i++) {
         if (this.transItems[i].val === transModel) {
