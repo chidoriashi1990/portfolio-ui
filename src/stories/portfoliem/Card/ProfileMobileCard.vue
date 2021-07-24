@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'ProfileCard',
+  name: 'ProfileMobileCard',
   props: {
     profileImage: {
       type: String,
