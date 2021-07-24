@@ -1,11 +1,11 @@
-import ProfileMobileCard from './ProfileMobileCard';
+import ProfileMobileCard from './ProfileMobileCard.vue';
 
 export default {
   title: 'Portfoliem/Card',
   component: ProfileMobileCard
 };
 
-export const Profile = () => ({
+export const ProfileMobile = () => ({
   components: { ProfileMobileCard },
   template:
     '<profile-mobile-card :profileImage="profileImage" :actionButtons="socialData" />',
@@ -41,4 +41,4 @@ export const Profile = () => ({
   })
 });
 
-Profile.storyName = 'Profile Mobile Card';
+ProfileMobile.storyName = 'Profile Mobile Card';
